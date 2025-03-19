@@ -1,4 +1,5 @@
 import { Component } from "react";
+import './StyleCodeCorrection.css'
 
 class UserProfile extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class UserProfile extends Component {
 
     render() {
         return (
-            <div>
+            <div className="firstPart">
                 <h1>User Profile</h1>
                 <p>Name: {this.state.name}</p>
                 <button onClick={this.changeName}>Change Name</button>

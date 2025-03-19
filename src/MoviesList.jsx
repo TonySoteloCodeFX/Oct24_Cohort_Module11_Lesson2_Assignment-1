@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './StyleMovieList.css'
 
 const MoviesList = () => {
     
@@ -29,7 +30,8 @@ const MoviesList = () => {
     };
 
     return (
-        <div>
+        <div className='secondPart'>
+            <h1>Tony's Movies!</h1>
             <button onClick={toggleGenreView}>
                 {showActionMovies ? 'Show All Movies' : 'Show Action Movies Only'}
             </button>
