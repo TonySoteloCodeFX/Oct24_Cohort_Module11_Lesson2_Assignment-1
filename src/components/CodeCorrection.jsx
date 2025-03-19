@@ -1,5 +1,4 @@
 import { Component } from "react";
-import './StyleCodeCorrection.css'
 
 class UserProfile extends Component {
     constructor(props) {

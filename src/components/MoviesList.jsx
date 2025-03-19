@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './StyleMovieList.css'
+
 
 const MoviesList = () => {
     

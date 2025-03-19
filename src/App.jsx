@@ -1,5 +1,7 @@
-import UserProfile from './CodeCorrection'
-import MoviesList from './MoviesList';
+import UserProfile from './components/CodeCorrection';
+import MoviesList from './components/MoviesList';
+import './StyleCodeCorrection.css'
+import './StyleMovieList.css'
 
 function App() {
   return (
